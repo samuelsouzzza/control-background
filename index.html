@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+        <title>Controle de BackGround Color</title>
+    </head>
+<body>
+<main>
+    <section>
+        <h1>Selecione a cor</h1>
+        <p>Deslize os controles até encontrar a cor que desejar</p>
+    </section>
+    <section>
+        <article>
+            <p>R</p><input type="range" class="rg-red" id="red" max="255"><label class="red">...</label>
+        </article>
+        <article>
+            <p>G</p><input type="range" class="rg-green" id="green" max="255"><label class="green">...</label>
+        </article>
+        <article>
+            <p>B</p><input type="range" class="rg-blue" id="blue" max="255"><label class="blue">...</label>
+        </article>
+    </section>
+    <section class="section-clip" data-clipboard-target=".rgbAtual">
+        <label class="rgbAtual">...</label>
+        <p class="p-actionClip">Copiado!</p>
+    </section>
+</main>
+<script src="js/clipboard.js-master/dist/clipboard.min.js"></script>
+<script src="js/clipboard.js-master/dist/clipboard.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

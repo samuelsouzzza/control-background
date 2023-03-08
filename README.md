@@ -1,2 +1,2 @@
-# control-background
-System that lets the user customize the background color based on existing controls.
+# controle-BackGroundColor
+Um controle deslizante que faz a alteração da cor do background da página de acordo com os valor escolhidos pelo usuário.
